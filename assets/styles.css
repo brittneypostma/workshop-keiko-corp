@@ -1,0 +1,27 @@
+main {
+  display: grid;
+  grid-template-columns: 1fr min(80ch, 95%) 1fr;
+}
+
+main > * {
+  grid-column: 2;
+}
+
+.full-width {
+  width: 100%;
+  grid-column: 1/4;
+}
+
+.subscribe,
+.testimonials {
+  background: var(--lightBlue);
+}
+
+.companies {
+  background: var(--purple);
+  color: var(--lightBlue);
+}
+
+.companies h2 {
+  color: var(--lightBlue);
+}
