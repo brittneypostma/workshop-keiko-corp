@@ -16,3 +16,16 @@ main > * {
   max-width: min(80ch, 95%);
   margin: 0 auto;
 }
+
+.subscribe {
+  background: var(--lightBlue);
+}
+
+.companies {
+  background: var(--purple);
+  color: var(--lightBlue);
+}
+
+.companies h2 {
+  color: var(--lightBlue);
+}
