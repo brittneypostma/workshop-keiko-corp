@@ -1,4 +1,18 @@
-body,
 main {
   display: grid;
+  grid-template-columns: 1fr min(80ch, 95%) 1fr;
+}
+
+main > * {
+  grid-column: 2;
+}
+
+.full-width {
+  grid-column: 1 / 4;
+}
+
+.header-wrapper,
+.footer-wrapper {
+  max-width: min(80ch, 95%);
+  margin: 0 auto;
 }
