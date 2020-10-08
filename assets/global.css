@@ -140,3 +140,7 @@ button:hover, input[type="submit"]:hover {
   background: var(--darkRed);
   border: 2px solid var(--darkRed);
 }
+
+ul, li {
+  list-style: none;
+}
