@@ -17,11 +17,12 @@ main > * {
   margin: 0 auto;
 }
 
-.subscribe {
+#contact,
+#pricing {
   background: var(--lightBlue);
 }
 
-.companies {
+#companies {
   background: var(--purple);
   color: var(--lightBlue);
 }
