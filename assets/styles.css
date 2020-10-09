@@ -86,12 +86,6 @@ main > * {
   justify-items: start;
 }
 
-.hero-content h1 {
-  font-weight: 700;
-  letter-spacing: -0.1rem;
-  line-height: 1.2;
-}
-
 /* *** CONTACT *** */
 #contact {
   text-align: center;
@@ -103,6 +97,8 @@ main > * {
   place-items: center;
   display: grid;
   gap: 1rem;
+  width: min(40ch, 95%);
+  margin: 0 auto;
 }
 
 #contact > section > form {
