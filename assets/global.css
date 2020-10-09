@@ -62,7 +62,7 @@ body {
   /* button styles */
   --br: 0.25rem;
   --btnHeight: 40px;
-  --btnPadding: 12px 16px;
+  --btnPadding: 0.25rem var(--lgPadding);
   
   /* transition */
   --transition: 0.2s all ease-in;
@@ -132,7 +132,7 @@ button, input[type="submit"] {
   color: var(--lightBlue);
   background: var(--red);
   border: 2px solid var(--red);
-  padding: var(--smPadding) var(--xlPadding);
+  padding: var(--btnPadding);
   transition: var(--transition);
 }
 
