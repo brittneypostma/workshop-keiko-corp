@@ -13,13 +13,13 @@ main > * {
 /* Anything with this class takes up the full grid */
 .full-width {
   grid-column: 1 / -1;
-  padding: 2.5rem 0;
+  padding: 1rem;
 }
 
 /* Make the header and footer align with center column */
 .header-wrapper,
 .footer-wrapper {
-  max-width: min(80ch, 95%);
+  max-width: min(80ch, 90%);
   margin: 0 auto;
 }
 
@@ -61,12 +61,74 @@ main > * {
 
 .contact-btn {
   justify-self: end;
+  border-bottom: none;
+}
+
+.contact-btn > button {
+  background: white;
+  border: 1px solid var(--red);
+  color: var(--red);
+}
+
+.contact-btn:hover {
+  border-bottom: none;
+}
+
+/* *** HERO *** */
+.hero {
+  display: grid;
+  gap: 1rem;
+}
+
+.hero-content {
+  display: grid;
+  gap: 1rem;
+  justify-items: start;
+}
+
+.hero-content h1 {
+  font-weight: 700;
+  letter-spacing: -0.1rem;
+  line-height: 1.2;
+}
+
+/* *** CONTACT *** */
+#contact {
+  text-align: center;
+  display: grid;
+  gap: 1rem;
+}
+
+#contact > section {
+  place-items: center;
+  display: grid;
+  gap: 1rem;
+}
+
+#contact > section > form {
+  display: flex;
+  flex: 2 1;
+  gap: 1rem;
+  font-size: var(--mdText);
+}
+
+#contact strong {
+  color: var(--heading);
+  font-weight: bold;
+  font-style: italic;
 }
 
 /* *** Media Queries *** */
+/* vertical tablet */
 @media only screen and (min-width: 768px) {
   .header-wrapper {
     display: flex;
     justify-content: space-between;
+  }
+  .hero {
+    grid-template-columns: 2fr 1.5fr;
+    gap: 2.5rem;
+    place-items: center;
+    height: calc(100vh - 5rem);
   }
 }
