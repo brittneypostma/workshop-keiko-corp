@@ -45,7 +45,7 @@ main > * {
   display: grid;
   align-items: center;
   gap: 1rem;
-  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
 }
 
 .menu {
@@ -53,8 +53,21 @@ main > * {
   gap: 1rem;
 }
 
+.logo,
 .contact-btn {
-  grid-column: 2/-1;
-  grid-row: 1/2;
-  padding: 0.25rem 0.5rem;
+  /* grid-row: 1/2;
+  grid-column: 1/-1; */
+  grid-area: 1/2 / 1/-1;
+}
+
+.contact-btn {
+  justify-self: end;
+}
+
+/* *** Media Queries *** */
+@media only screen and (min-width: 768px) {
+  .header-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
 }
