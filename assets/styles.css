@@ -1,22 +1,31 @@
+/* Explicitly give me 3 cols; 1 fraction of space, whichever is smaller of 80 characters or 95% of the width, and another fraction of space. */
 main {
   display: grid;
   grid-template-columns: 1fr min(80ch, 95%) 1fr;
+  row-gap: 2.5rem;
 }
 
+/* Put everything inside main in column 2 (min(80ch, 95%)) */
 main > * {
   grid-column: 2;
 }
 
+/* Anything with this class takes up the full grid */
 .full-width {
-  grid-column: 1 / 4;
+  grid-column: 1 / -1;
+  padding: 2.5rem 0;
 }
 
+/* Make the header and footer align with center column */
 .header-wrapper,
 .footer-wrapper {
   max-width: min(80ch, 95%);
   margin: 0 auto;
 }
 
+/*** COLORS FOR FULL-WIDTH ***/
+
+/* Give contact and pricing sections lightBlue background */
 #contact,
 #pricing {
   background: var(--lightBlue);
@@ -27,6 +36,25 @@ main > * {
   color: var(--lightBlue);
 }
 
-.companies h2 {
+#companies h2 {
   color: var(--lightBlue);
+}
+
+/* *** HEADER *** */
+.header-wrapper {
+  display: grid;
+  align-items: center;
+  gap: 1rem;
+  grid-template-columns: 1fr 1fr;
+}
+
+.menu {
+  display: flex;
+  gap: 1rem;
+}
+
+.contact-btn {
+  grid-column: 2/-1;
+  grid-row: 1/2;
+  padding: 0.25rem 0.5rem;
 }
