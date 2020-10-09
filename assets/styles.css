@@ -44,7 +44,6 @@ main > * {
 .header-wrapper {
   display: grid;
   align-items: center;
-  gap: 1rem;
   grid-template-rows: 1fr 1fr;
 }
 
