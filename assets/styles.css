@@ -80,10 +80,16 @@ main > * {
   gap: 1rem;
 }
 
+.hero > img {
+  justify-self: end;
+}
+
 .hero-content {
+  justify-self: start;
   display: grid;
   gap: 1rem;
   justify-items: start;
+  max-width: min(40ch, 95%);
 }
 
 /* *** CONTACT *** */
