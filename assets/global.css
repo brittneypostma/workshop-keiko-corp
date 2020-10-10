@@ -119,7 +119,7 @@ img {
 
 input, textarea, button {
   line-height: 2;
-  padding: 0.5rem;
+  padding: 0.25rem;
   border: 1px solid var(--heading);
   border-radius: 0.25rem;
 }
