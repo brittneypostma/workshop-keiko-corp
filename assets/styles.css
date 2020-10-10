@@ -78,14 +78,10 @@ main > * {
 .hero {
   display: grid;
   gap: 1rem;
-}
-
-.hero > img {
-  justify-self: end;
+  justify-items: center;
 }
 
 .hero-content {
-  justify-self: start;
   display: grid;
   gap: 1rem;
   justify-items: start;
