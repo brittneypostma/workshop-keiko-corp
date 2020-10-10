@@ -1,0 +1,21 @@
+/* *** PROJECTS *** */
+#projects section {
+  display: grid;
+  gap: 1rem;
+}
+
+#projects h2,
+#projects h3 {
+  text-align: center;
+  padding: 1rem;
+}
+
+.project-text {
+  margin: 0 auto;
+  max-width: 40ch;
+}
+
+.project-link {
+  margin-bottom: 2rem;
+  justify-self: start;
+}

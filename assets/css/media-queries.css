@@ -5,10 +5,40 @@
     display: flex;
     justify-content: space-between;
   }
+
+  /* *** Hero *** */
   .hero {
-    grid-template-columns: 2fr 1.5fr;
+    grid-template-columns: 2fr 1fr;
     gap: 2.5rem;
     place-items: center;
     height: calc(100vh - 5rem);
+  }
+
+  /* *** Projects *** */
+  .projects-wrapper article {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 2rem;
+    place-items: center;
+  }
+
+  .project-one > .project-text,
+  .project-three > .project-text {
+    grid-column: 2/-1;
+  }
+
+  .project-two > img {
+    grid-column: 2/-1;
+  }
+
+  .project-two > .project-text {
+    grid-row: 1/2;
+  }
+
+  /* *** COMPANIES *** */
+  .company-logos {
+    display: flex;
+    justify-content: space-between;
+    max-width: var(--centerColumn);
   }
 }

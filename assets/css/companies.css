@@ -1,0 +1,15 @@
+#companies {
+  text-align: center;
+}
+
+.company-logos {
+  display: grid;
+  grid-template: 1fr 1fr / 1fr 1fr 1fr;
+  place-items: center;
+  gap: 1rem;
+  margin: 1rem auto;
+}
+
+.company-logos > img {
+  width: 100px;
+}

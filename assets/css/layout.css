@@ -17,7 +17,7 @@ main > * {
 /* Anything with this class takes up the full grid */
 .full-width {
   grid-column: 1 / -1;
-  padding: 1rem;
+  padding: 2rem 1rem;
 }
 
 /* Make the header and footer align with center column */

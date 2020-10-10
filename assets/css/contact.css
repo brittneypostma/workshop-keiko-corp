@@ -1,5 +1,6 @@
 /* *** CONTACT *** */
 #contact {
+  padding: 2rem auto;
   text-align: center;
   display: grid;
   gap: 1rem;
