@@ -97,6 +97,7 @@ main > * {
   text-align: center;
   display: grid;
   gap: 1rem;
+  justify-items: center;
 }
 
 #contact > section {
@@ -107,11 +108,16 @@ main > * {
   margin: 0 auto;
 }
 
-#contact > section > form {
+#contact form {
+  width: 100%;
   display: flex;
   flex: 2 1;
   gap: 1rem;
   font-size: var(--mdText);
+}
+
+#contact .email {
+  width: 100%;
 }
 
 #contact strong {
