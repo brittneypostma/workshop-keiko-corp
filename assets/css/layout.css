@@ -1,5 +1,5 @@
 :root {
-  --centerColumn: min(40ch, 80vw);
+  --centerColumn: min(80ch, 80vw);
 }
 
 /* Explicitly give me 3 cols; 1 fraction of space, whichever is smaller of 80 characters or 95% of the width, and another fraction of space. */
