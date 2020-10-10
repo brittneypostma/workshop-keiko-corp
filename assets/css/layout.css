@@ -1,0 +1,28 @@
+:root {
+  --centerColumn: min(40ch, 80vw);
+}
+
+/* Explicitly give me 3 cols; 1 fraction of space, whichever is smaller of 80 characters or 95% of the width, and another fraction of space. */
+main {
+  display: grid;
+  grid-template-columns: 1fr var(--centerColumn) 1fr;
+  row-gap: 2.5rem;
+}
+
+/* Put everything inside main in column 2 (min(80ch, 95%)) */
+main > * {
+  grid-column: 2;
+}
+
+/* Anything with this class takes up the full grid */
+.full-width {
+  grid-column: 1 / -1;
+  padding: 1rem;
+}
+
+/* Make the header and footer align with center column */
+.header-wrapper,
+.footer-wrapper {
+  max-width: var(--centerColumn);
+  margin: 0 auto;
+}

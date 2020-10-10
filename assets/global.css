@@ -157,3 +157,20 @@ a {
 a:hover {
   border-bottom: 2px solid var(--red);
 }
+
+/* *** COLORS *** */
+
+/* Give contact and pricing sections lightBlue background */
+#contact,
+#pricing {
+  background: var(--lightBlue);
+}
+
+#companies {
+  background: var(--purple);
+  color: var(--lightBlue);
+}
+
+#companies h2 {
+  color: var(--lightBlue);
+}

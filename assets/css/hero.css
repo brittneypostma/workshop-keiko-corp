@@ -1,0 +1,13 @@
+/* *** HERO *** */
+.hero {
+  display: grid;
+  gap: 1rem;
+  justify-items: center;
+}
+
+.hero-content {
+  display: grid;
+  gap: 1rem;
+  justify-items: start;
+  max-width: 40ch;
+}

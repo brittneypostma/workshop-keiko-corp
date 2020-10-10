@@ -1,0 +1,14 @@
+/* *** Media Queries *** */
+/* vertical tablet */
+@media only screen and (min-width: 768px) {
+  .header-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  .hero {
+    grid-template-columns: 2fr 1.5fr;
+    gap: 2.5rem;
+    place-items: center;
+    height: calc(100vh - 5rem);
+  }
+}
