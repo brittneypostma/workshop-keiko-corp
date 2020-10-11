@@ -2,7 +2,7 @@
 .footer-wrapper {
   padding: 2rem 1rem;
   display: grid;
-  grid-template: 1fr 1fr / 1fr 1fr;
+  grid-template: 1fr 0.5fr 0.5fr / 1fr 1fr;
   gap: 1rem;
 }
 
