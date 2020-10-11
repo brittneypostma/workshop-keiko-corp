@@ -51,14 +51,15 @@
 }
 
 .price-card > button {
-  background: #333;
-  color: var(--lightBlue);
+  background: var(--lightBlue);
+  color: var(--red);
   border: none;
   transition: var(--transition);
 }
 
 .price-card > button:hover {
-  background: var(--heading);
+  background: var(--text);
+  color: var(--lightBlue);
 }
 
 .personal {
