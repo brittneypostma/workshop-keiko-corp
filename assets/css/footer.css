@@ -1,0 +1,22 @@
+/* *** FOOTER *** */
+.footer-wrapper {
+  padding: 2rem 1rem;
+  display: grid;
+  grid-template: 1fr 1fr / 1fr 1fr;
+  gap: 1rem;
+}
+
+.footer-column > h2 {
+  margin-bottom: 1rem;
+}
+
+.footer-text {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.sub-footer {
+  text-align: center;
+  grid-column: 1/-1;
+}

@@ -42,10 +42,9 @@
     max-width: var(--centerColumn);
   }
 
-  /* *** PRICING *** */
-  .price-cards {
-    width: 100%;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  /* *** FOOTER *** */
+  .footer-wrapper {
+    grid-template: 1fr / repeat(4, 1fr);
   }
 }
 
@@ -53,5 +52,11 @@
   /* *** TESTIMONIALS *** */
   .testimonial-cards {
     grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  /* *** PRICING *** */
+  .price-cards {
+    width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   }
 }
