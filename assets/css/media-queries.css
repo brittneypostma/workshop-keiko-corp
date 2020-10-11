@@ -41,4 +41,17 @@
     justify-content: space-between;
     max-width: var(--centerColumn);
   }
+
+  /* *** PRICING *** */
+  .price-cards {
+    width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  /* *** TESTIMONIALS *** */
+  .testimonial-cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }

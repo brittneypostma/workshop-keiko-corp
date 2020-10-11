@@ -1,0 +1,74 @@
+/* *** PRICING *** */
+#pricing,
+.price-cards,
+.price-card {
+  display: grid;
+  gap: 1rem;
+  text-align: center;
+}
+
+.price-cards {
+  max-width: var(--centerColumn);
+  margin: 0 auto;
+}
+
+.price-card > h3 {
+  color: var(--lightBlue);
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.price-card {
+  color: var(--lightBlue);
+  justify-content: center;
+  place-items: center;
+  padding: var(--xlPadding);
+}
+
+.price {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.price > span:first-child {
+  justify-self: end;
+  position: relative;
+  top: 5px;
+}
+
+.price > span:nth-child(2) {
+  font-size: 5rem;
+  line-height: 1;
+  letter-spacing: -0.4rem;
+}
+
+.price > span:last-child {
+  justify-self: start;
+  align-self: end;
+  position: relative;
+  bottom: 5px;
+  left: 5px;
+}
+
+.price-card > button {
+  background: #333;
+  color: var(--lightBlue);
+  border: none;
+  transition: var(--transition);
+}
+
+.price-card > button:hover {
+  background: var(--heading);
+}
+
+.personal {
+  background: var(--yellow);
+}
+
+.agency {
+  background: var(--red);
+}
+
+.enterprise {
+  background: var(--purple);
+}

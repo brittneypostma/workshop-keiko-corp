@@ -2,41 +2,39 @@
 #testimonials section {
   display: grid;
   gap: 1rem;
+  justify-content: center;
   margin-bottom: 1rem;
-  text-align: center;
 }
 
 .testimonial {
   position: relative;
   display: grid;
-}
-
-.quote-box {
-  background: url(../images/quote-box.svg) center no-repeat;
-  height: 175px;
-}
-
-.quote-box > p {
-  height: 145px;
-  display: grid;
-  place-items: center;
-  text-align: left;
-  margin: 0 auto;
-  padding: 0.25rem 2rem;
-  font-size: var(--lgText);
-  font-style: italic;
   max-width: 40ch;
+}
+
+.testimonial > p {
+  font-style: italic;
+  box-shadow: var(--mdShadow);
+  padding: var(--lgPadding);
+  border-radius: var(--br);
 }
 
 .customer {
   display: flex;
   gap: 1rem;
+  font-size: clamp(var(--mdText), 2vw, var(--lgText));
 }
 
 .customer > img {
+  width: 100px;
+  height: 100px;
   border-radius: 100%;
 }
 
+.customer-text > h3 {
+  font-size: var(--xlText);
+}
+
 .customer-text > p {
-  margin-top: 1rem;
+  margin-top: 0.5rem;
 }
