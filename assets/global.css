@@ -58,6 +58,7 @@ body {
   --mdMargin: 1rem;
   --lgMargin: 1.5rem;
   --xlMargin: 2rem;
+  --centerMargin: 2.5rem 1rem;
 
   /* button styles */
   --br: 0.25rem;
@@ -71,7 +72,7 @@ body {
   --smShadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.25);
   --mdShadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.25);
   --lgShadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-  --focusShadow: 0 0 0 3px #1f014d2f;
+  --focusShadow: 0 0 0 3px var(--purple);
 
   /* breakpoints */
   --sm: 640px
@@ -136,11 +137,19 @@ button, input[type="submit"] {
   border: 2px solid var(--red);
   padding: var(--btnPadding);
   transition: var(--transition);
+  text-transform: uppercase;
+  font-size: var(--lgText);
+  box-shadow: var(--smShadow);
 }
 
 button:hover, input[type="submit"]:hover {
   background: var(--darkRed);
   border: 2px solid var(--darkRed);
+  box-shadow: var(--mdShadow);
+}
+
+button:focus, input[type="submit"]:focus {
+  box-shadow: var(--focusShadow);
 }
 
 ul, li {
