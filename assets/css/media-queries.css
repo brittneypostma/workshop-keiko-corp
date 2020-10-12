@@ -8,17 +8,18 @@
 
   /* *** Hero *** */
   .hero {
-    grid-template-columns: 2fr 1fr;
-    gap: 2.5rem;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 5rem;
     place-items: center;
-    height: calc(100vh - 5rem);
+    /* 100vh minus the header height + margins (56 + 16 + 16 + 40) = 128px */
+    height: calc(100vh - 128px);
   }
 
   /* *** Projects *** */
   .projects-wrapper article {
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr;
-    gap: 2rem;
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5rem;
     place-items: center;
   }
 
@@ -31,6 +32,10 @@
     grid-column: 2/-1;
   }
 
+  .project-image {
+    width: 80%;
+  }
+
   .project-two > .project-text {
     grid-row: 1/2;
   }
@@ -39,18 +44,17 @@
   .company-logos {
     display: flex;
     justify-content: space-between;
-    max-width: var(--centerColumn);
   }
 
   /* *** FOOTER *** */
-  .footer-wrapper {
+  /* .footer-wrapper {
     grid-template: 1fr / repeat(4, 1fr);
-  }
+  } */
 }
 
 @media only screen and (min-width: 1024px) {
   /* *** TESTIMONIALS *** */
-  .testimonial-cards {
+  .testimonials-cards {
     grid-template-columns: 1fr 1fr 1fr;
   }
 

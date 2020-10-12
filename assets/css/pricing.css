@@ -2,6 +2,7 @@
 #pricing {
   padding-bottom: 4rem;
 }
+
 #pricing,
 .price-cards,
 .price-card {
@@ -10,7 +11,12 @@
   text-align: center;
 }
 
+.price-heading {
+  margin-bottom: 2.5rem;
+}
+
 .price-cards {
+  gap: 2.5rem;
   max-width: var(--centerColumn);
   margin: 0 auto;
 }
@@ -75,4 +81,8 @@
 
 .enterprise {
   background: var(--purple);
+}
+
+.enterprise > button:focus {
+  box-shadow: 0 0 0 3px var(--yellow);
 }

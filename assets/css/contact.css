@@ -1,6 +1,5 @@
 /* *** CONTACT *** */
 #contact {
-  padding: 2rem auto;
   text-align: center;
   display: grid;
   gap: 1rem;
@@ -16,19 +15,23 @@
 }
 
 #contact form {
-  width: 100%;
   display: flex;
-  flex: 2 1;
   gap: 1rem;
   font-size: clamp(var(--mdText), 2vw, var(--lgText));
 }
 
 #contact .email {
-  width: 100%;
+  padding: 0.25rem;
+}
+
+#subscribe {
+  padding: 0 0.5rem;
+  font-size: clamp(var(--mdText), 2vw, var(--lgText));
 }
 
 #contact strong {
   color: var(--heading);
   font-weight: bold;
   font-style: italic;
+  font-size: var(--mdText);
 }

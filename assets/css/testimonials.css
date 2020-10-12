@@ -1,22 +1,29 @@
 /* *** TESTIMONIALS *** */
-#testimonials section {
+.testimonials-title,
+.testimonials-cards,
+.testimonial {
   display: grid;
-  gap: 1rem;
+  gap: 2.5rem;
   justify-content: center;
-  margin-bottom: 1rem;
+  justify-items: center;
+}
+
+.testimonials-title {
+  text-align: center;
+  gap: 0.5rem;
+  margin-bottom: 2.5rem;
 }
 
 .testimonial {
-  position: relative;
-  display: grid;
   max-width: 40ch;
-}
-
-.testimonial > p {
-  font-style: italic;
   box-shadow: var(--mdShadow);
   padding: var(--lgPadding);
   border-radius: var(--br);
+}
+
+.testimonial > p {
+  margin-bottom: 1rem;
+  font-style: italic;
 }
 
 .customer {

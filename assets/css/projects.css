@@ -1,13 +1,22 @@
 /* *** PROJECTS *** */
-#projects section {
+.projects-wrapper {
   display: grid;
   gap: 1rem;
 }
 
-#projects h2,
+#projects h2 {
+  margin-bottom: 5rem;
+  text-align: center;
+}
+
 #projects h3 {
   text-align: center;
-  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.project-one,
+.project-two {
+  margin-bottom: 5rem;
 }
 
 .project-text {
@@ -16,6 +25,5 @@
 }
 
 .project-link {
-  margin-bottom: 2rem;
   justify-self: start;
 }

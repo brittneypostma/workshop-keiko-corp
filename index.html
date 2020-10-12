@@ -144,7 +144,7 @@
           <section class="projects-wrapper">
             <!-- project one -->
             <article class="project-one">
-              <img src="assets/images/project-one.svg" alt="project one" />
+              <img src="assets/images/project-one.svg" alt="project one" class="project-image"/>
               <section class="project-text">
                 <h3>PROJECT ONE</h3>
                 <p>
@@ -158,7 +158,7 @@
             </article>
             <!-- project two -->
             <article class="project-two">
-              <img src="assets/images/project-two.svg" alt="project two" />
+              <img src="assets/images/project-two.svg" alt="project two" class="project-image"/>
               <section class="project-text">
                 <h3>PROJECT TWO</h3>
                 <p>
@@ -172,7 +172,7 @@
             </article>
             <!-- project three -->
             <article class="project-three">
-              <img src="assets/images/project-three.svg" alt="project three" />
+              <img src="assets/images/project-three.svg" alt="project three" class="project-image"/>
               <section class="project-text">
                 <h3>PROJECT THREE</h3>
                 <p>
@@ -190,53 +190,55 @@
 
       <!-- ******** COMPANIES ******** -->
       <article id="companies" class="full-width">
-        <section class="companies-title">
-          <h2>You are in Good Company</h2>
-          <p>
-            We are funded with the world's trusted brands
-          </p>
-        </section>
-        <section class="company-logos">
-          <img
-            class="company-logo"
-            src="assets/images/logos/adobe.svg"
-            alt="adobe"
-          />
-          <img
-            class="company-logo"
-            src="assets/images/logos/amazon.svg"
-            alt="amazon"
-          />
-          <img
-            class="company-logo"
-            src="assets/images/logos/fb.svg"
-            alt="facebook"
-          />
-          <img
-            class="company-logo"
-            src="assets/images/logos/google.svg"
-            alt="google"
-          />
-          <img
-            class="company-logo"
-            src="assets/images/logos/intel.svg"
-            alt="intel"
-          />
-          <img
-            class="company-logo"
-            src="assets/images/logos/samsung.svg"
-            alt="samsung"
-          />
-        </section>
+        <div class="companies-wrapper">
+          <section class="companies-title">
+            <h2>You are in Good Company</h2>
+            <p>
+              We are funded with the world's trusted brands
+            </p>
+          </section>
+          <section class="company-logos">
+            <img
+              class="company-logo"
+              src="assets/images/logos/adobe.svg"
+              alt="adobe"
+            />
+            <img
+              class="company-logo"
+              src="assets/images/logos/amazon.svg"
+              alt="amazon"
+            />
+            <img
+              class="company-logo"
+              src="assets/images/logos/fb.svg"
+              alt="facebook"
+            />
+            <img
+              class="company-logo"
+              src="assets/images/logos/google.svg"
+              alt="google"
+            />
+            <img
+              class="company-logo"
+              src="assets/images/logos/intel.svg"
+              alt="intel"
+            />
+            <img
+              class="company-logo"
+              src="assets/images/logos/samsung.svg"
+              alt="samsung"
+            />
+          </section>
+        </div>
       </article>
 
       <!-- ******** TESTIMONIALS ******** -->
       <article id="testimonials">
-        <section>
+        <section class="testimonials-title">
           <h2>What Our Customers are Saying</h2>
           <p>Don't take our word for it, see what our customers said.</p>
         </section>
-        <section class="testimonial-cards">
+        <section class="testimonials-cards">
           <section class="testimonial">
             
               <p>
@@ -289,33 +291,32 @@
       <!-- ******** PRICING SECTION ******** -->
       <article id="pricing" class="full-width">
         <section class="price-heading">
-          <h2>Pricing</h2>
+          <h2>How Much Does it Cost</h2>
           <p>Honest pricing, no surprises</p>
         </section>
         <section class="price-cards">
           <div class="price-card personal">
             <h3>Personal</h3>
             <div class="price"><span>$</span><span>10</span><span> /MO</span></div>
-            <p>5 recommendations per Day</p>
-            <p>2 discounts per Month</p>
-            <p>Unlimited Surfing</p>
+            <p>5 recommendations</p>
+            <p>2 perks per month</p>
+            <p>20GB Data</p>
             <button class="red-btn" type="button">Sign Up</button>
           </div>
           <div class="price-card agency">
             <h3>Agency</h3>
             <div class="price"><span>$</span><span>20</span><span> /MO</span></div>
             <p>10 recommendations</p>
-            <p>5 discounts per Month</p>
-            <p>Unlimited Surfing</p>
+            <p>5 perks per month</p>
+            <p>Unlimited data</p>
             <button class="red-btn" type="button">Sign Up</button>
           </div>
           <div class="price-card enterprise">
             <h3>Enterprise</h3>
           <div class="price"><span>$</span><span>49</span><span> /MO</span></div>
-          <p>No Taxes</p>
-          <p>20 discounts per month</p>
-          <p>Free Tickets</p>
-          <p>New Specials for free</p>
+          <p>All lower deals +</p>
+          <p>Unlimited recommendations</p>
+          <p>Unlimited perks</p>
           <button class="red-btn" type="button">Sign Up</button>
           </div>
         </section>
@@ -325,50 +326,14 @@
 
     <!-- ******* Footer ******* -->
     <footer>
-      <div class="footer-wrapper">
-        <!-- Column One -->
-        <section class="footer-column">
-          <h2>Links</h2>
-          <div class="footer-text">
-            <a href="#">Home</a>
-            <a href="#pricing">Pricing</a>
-            <a href="#">Team</a>
-            <a href="#">Contact Us</a>
+      <section class="footer-wrapper">
+          <div class="socials">
+            <a href="/"><i class="fab fa-twitter"></i></a>
+            <a href="/"><i class="fab fa-facebook-f"></i></a>
+            <a href="/"><i class="fab fa-instagram"></i></a>
+            <a href="/"><i class="fab fa-youtube"></i></a>
+            <a href="/"><i class="fab fa-google"></i></a>
           </div>
-        </section>
-        <!-- Column Two -->
-        <section class="footer-column">
-          <h2>About Us</h2>
-          <div class="footer-text">
-            Keiko Corp. the greatest start up of all time Bruno the CEO of Keiko
-            Corp has built the fastest growing tech start up in Silicon Valley.
-          </div>
-        </section>
-       
-        <!-- Column Three -->
-        <section class="footer-column">
-          <h2>FAQ</h2>
-          <div class="footer-text">
-            <a href="privacy">Privacy Policy</a>
-            <a href="terms">Terms</a>
-            <a href="FAQ">FAQ</a>
-            <a href="support">Support</a>
-          </div>
-        </section>
-        <!-- Column Four -->
-        <section class="footer-column">
-          <h2>Follow Us</h2>
-          
-            <div class="footer-text socials">
-              <a href="/"><i class="fab fa-twitter"></i></a>
-              <a href="/"><i class="fab fa-facebook-f"></i></a>
-              <a href="/"><i class="fab fa-instagram"></i></a>
-              <a href="/"><i class="fab fa-youtube"></i></a>
-              <a href="/"><i class="fab fa-google"></i></a>
-            </div>
-       
-        </section>
-        <section class="sub-footer">
           <p>
             &copy;
             <script>
@@ -376,8 +341,7 @@
             </script>
             Keiko Corp . All Rights Reserved
           </p>
-        </section>
-      </div>
+      </section>
     </footer>
     <!-- ******* END FOOTER ******* -->
   </body>
