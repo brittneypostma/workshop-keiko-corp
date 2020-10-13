@@ -45,11 +45,6 @@
     display: flex;
     justify-content: space-between;
   }
-
-  /* *** FOOTER *** */
-  /* .footer-wrapper {
-    grid-template: 1fr / repeat(4, 1fr);
-  } */
 }
 
 @media only screen and (min-width: 1024px) {

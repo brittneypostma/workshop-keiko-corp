@@ -25,7 +25,7 @@
 }
 
 #subscribe {
-  padding: 0 0.5rem;
+  padding: clamp(0, 8px, 0.25rem) clamp(0.5rem, 16px, 1.5rem);
   font-size: clamp(var(--mdText), 2vw, var(--lgText));
 }
 

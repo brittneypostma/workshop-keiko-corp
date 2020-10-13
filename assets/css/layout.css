@@ -1,5 +1,5 @@
 :root {
-  --centerColumn: min(90ch, 80vw);
+  --centerColumn: min(90ch, calc(100vw - 1rem));
   --rowGap: 5rem;
 }
 
@@ -18,7 +18,7 @@ main > * {
 /* Anything with this class takes up the full grid */
 .full-width {
   grid-column: 1 / -1;
-  padding: var(--rowGap) 1rem;
+  padding: var(--rowGap) 0.5rem;
 }
 
 /* Make the header and footer align with center column */
