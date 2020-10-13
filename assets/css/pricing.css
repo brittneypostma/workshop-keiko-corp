@@ -21,12 +21,6 @@
   margin: 0 auto;
 }
 
-.price-card > h3 {
-  color: var(--lightBlue);
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
 .price-card {
   color: var(--lightBlue);
   justify-content: center;
@@ -34,13 +28,21 @@
   padding: var(--xlPadding);
 }
 
+.price-card > h3 {
+  color: var(--lightBlue);
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.price-card > p {
+  font-size: var(--lgText);
+}
+
 .price {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  display: flex;
 }
 
 .price > span:first-child {
-  justify-self: end;
   position: relative;
   top: 5px;
 }
@@ -52,7 +54,6 @@
 }
 
 .price > span:last-child {
-  justify-self: start;
   align-self: end;
   position: relative;
   bottom: 5px;
