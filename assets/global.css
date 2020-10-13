@@ -16,7 +16,7 @@
 
 html,
 body {
-  overflow-x:hidden;
+  overflow-x: hidden;
   scroll-behavior: smooth;
   line-height: 1.5;
   height: 100%;
@@ -24,7 +24,9 @@ body {
   text-rendering: optimizeLegibility;
 }
 
-/******* STYLES *******/
+/* Starting with a good base will help increase the efficiency of your time and help balance the project. */
+
+/******* DESIGN SYSTEM *******/
 :root {
   /* max width for site content */
   --maxWidth: 1280px;
@@ -35,7 +37,6 @@ body {
   --purple: #20014d;
   --yellow: #f1c40f;
   --darkRed: #de4a46;
-  --green: #2CB629;
   --heading: #020100;
   --text: #757575;
 
@@ -64,30 +65,27 @@ body {
   --br: 0.25rem;
   --btnHeight: 40px;
   --btnPadding: 0.25rem var(--lgPadding);
-  
+
   /* transition */
   --transition: 0.2s all ease-in;
 
   /* shadows */
   --smShadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.25);
   --mdShadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.25);
-  --lgShadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  --lgShadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.04);
   --focusShadow: 0 0 0 3px var(--purple);
 
   /* breakpoints */
-  --sm: 640px
   /*  @media (min-width: 640px) { ... } */
-  --md: 768px;
   /* @media (min-width: 768px) { ... } */
-  --lg: 1024px;
   /* @media (min-width: 1024px) { ... } */
-  --xl: 1280px;
   /* @media (min-width: 1280px) { ... } */
 }
 
 body {
   color: var(--text);
-  font-size: clamp(100%, 1rem + .25vw, 2rem);
+  font-size: clamp(100%, 1rem + 0.25vw, 2rem);
 }
 
 h1,
@@ -110,7 +108,7 @@ h2 {
 }
 
 h3 {
-  font-size: clamp(1.25rem, 1.25rem + .75vw, 2.25rem);
+  font-size: clamp(1.25rem, 1.25rem + 0.75vw, 2.25rem);
 }
 
 img {
@@ -118,19 +116,23 @@ img {
   display: block;
 }
 
-input, textarea, button {
+input,
+textarea,
+button {
   line-height: 2;
   padding: 0.25rem;
   border: 1px solid var(--heading);
   border-radius: 0.25rem;
 }
 
-input:focus, textarea:focus {
+input:focus,
+textarea:focus {
   outline: none;
   box-shadow: 0 0 0 3px var(--yellow);
 }
 
-button, input[type="submit"] {
+button,
+input[type='submit'] {
   cursor: pointer;
   color: var(--lightBlue);
   background: var(--red);
@@ -142,17 +144,20 @@ button, input[type="submit"] {
   box-shadow: var(--smShadow);
 }
 
-button:hover, input[type="submit"]:hover {
+button:hover,
+input[type='submit']:hover {
   background: var(--darkRed);
   border: 2px solid var(--darkRed);
   box-shadow: var(--mdShadow);
 }
 
-button:focus, input[type="submit"]:focus {
+button:focus,
+input[type='submit']:focus {
   box-shadow: var(--focusShadow);
 }
 
-ul, li {
+ul,
+li {
   list-style: none;
 }
 
