@@ -3,10 +3,15 @@
   --rowGap: 5rem;
 }
 
+body {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
 /* Explicitly give me 3 cols; 1 fraction of space, whichever is smaller of 80 characters or 95% of the width, and another fraction of space. */
 main {
   display: grid;
-  grid-template-columns: 1fr var(--centerColumn) 1fr;
+  grid-template-columns: auto var(--centerColumn) auto;
   row-gap: var(--rowGap);
 }
 

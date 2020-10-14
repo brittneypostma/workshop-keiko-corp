@@ -1,4 +1,7 @@
 /* *** HEADER *** */
+header {
+  position: sticky;
+}
 .header-wrapper {
   display: grid;
   align-items: center;
