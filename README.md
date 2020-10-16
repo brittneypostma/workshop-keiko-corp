@@ -18,6 +18,21 @@ Incredibly, Bruno the CEO of Keiko Corp has built the fastest growing tech start
 
 ## Workshop Resources
 
+- [Codepen Profile](https://codepen.io/bdesignedwebdev)
+- [GitHub repo start](https://github.com/brittneypostma/workshop-keiko-corp/tree/start)
+- [GitHub repo finish](https://github.com/brittneypostma/workshop-keiko-corp)
+
+## Additional Resources
+
+- [Mobile Friendly Test](https://search.google.com/test/mobile-friendly)
+- [Web and Mobile Design: Zero to Mastery](https://academy.zerotomastery.io/p/academy?utm_source=github&utm_campaign=keiko-corp-hf20&affcode=441520_gjue7n-1)
+- [Complete Web Developer: Zero to Mastery - Advanced CSS Lectures](https://academy.zerotomastery.io/courses/697434/lectures/12738267?affcode=441520_gjue7n-1)
+- [CSS Remedy](https://github.com/jensimmons/cssremedy)
+- [The Complete Guide to Grid - CSS Tricks](https://css-tricks.com/snippets/css/complete-guide-grid/)
+- [CSS Layout Patterns](https://csslayout.io/patterns/)
+- [One Line Layouts - Una Kravets](https://web.dev/one-line-layouts/)
+- [Free CSS Grid Course - Wes Bos](https://cssgrid.io/)
+
 
 
 ## Disclaimer
