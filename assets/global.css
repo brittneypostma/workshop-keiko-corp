@@ -2,16 +2,13 @@
 
 /******* RESET ********/
 
-/* allows width and height values to apply to content, padding, and border. */
+/* additional resets I want to apply on top of remedy */
 *,
 ::before,
 ::after {
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
   border: none;
-  font: inherit;
-  vertical-align: baseline;
 }
 
 html,
@@ -24,9 +21,10 @@ body {
   text-rendering: optimizeLegibility;
 }
 
+/******* DESIGN SYSTEM *******/
+
 /* Starting with a good base will help increase the efficiency of your time and help balance the project. */
 
-/******* DESIGN SYSTEM *******/
 :root {
   /* max width for site content */
   --maxWidth: 1280px;
