@@ -19,6 +19,7 @@ Incredibly, Bruno the CEO of Keiko Corp has built the fastest growing tech start
 ## Workshop Resources
 
 <<<<<<< HEAD
+
 - [Codepen Profile](https://codepen.io/bdesignedwebdev)
 - [GitHub repo start](https://github.com/brittneypostma/workshop-keiko-corp/tree/start)
 - [GitHub repo finish](https://github.com/brittneypostma/workshop-keiko-corp)
@@ -34,10 +35,10 @@ Incredibly, Bruno the CEO of Keiko Corp has built the fastest growing tech start
 - [One Line Layouts - Una Kravets](https://web.dev/one-line-layouts/)
 - [Free CSS Grid Course - Wes Bos](https://cssgrid.io/)
 
-
-
 =======
->>>>>>> 4244e65d9fa576e43f255207e169225d2a42794d
+
+> > > > > > > 4244e65d9fa576e43f255207e169225d2a42794d
+
 ## Disclaimer
 
 Keiko Corp is a fictitious company, initially fabricated back in 2018 to enrich the learning process for the students of the Junior to Senior course. Keiko Corp, Bruno & his impeccable hair have since featured in several [Zero To Mastery](https://academy.zerotomastery.io/p/academy?utm_source=github&utm_campaign=keiko-corp-hf20&affcode=441520_gjue7n-1) courses becoming the favorite topic of conversation amongst students.
