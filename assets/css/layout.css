@@ -30,5 +30,5 @@ main > * {
 .header-wrapper,
 .footer-wrapper {
   max-width: var(--centerColumn);
-  margin: 1rem auto;
+  margin: 1rem;
 }

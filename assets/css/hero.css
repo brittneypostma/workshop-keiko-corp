@@ -11,3 +11,7 @@
   justify-items: start;
   max-width: 40ch;
 }
+
+.hero img {
+  padding: 2.5rem;
+}

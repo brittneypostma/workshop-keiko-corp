@@ -48,6 +48,11 @@
 }
 
 @media only screen and (min-width: 1024px) {
+  .header-wrapper,
+  .footer-wrapper {
+    margin: 1rem auto;
+  }
+
   /* *** TESTIMONIALS *** */
   .testimonials-cards {
     grid-template-columns: 1fr 1fr 1fr;
