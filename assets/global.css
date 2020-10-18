@@ -13,7 +13,6 @@
 
 html,
 body {
-  overflow-x: hidden;
   scroll-behavior: smooth;
   line-height: 1.5;
   min-height: 100%;
@@ -57,7 +56,8 @@ body {
   --mdMargin: 1rem;
   --lgMargin: 1.5rem;
   --xlMargin: 2rem;
-  --centerMargin: 2.5rem 1rem;
+
+  --ch: 65ch;
 
   /* button styles */
   --br: 0.25rem;
