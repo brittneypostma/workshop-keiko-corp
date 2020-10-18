@@ -6,15 +6,6 @@
     justify-content: space-between;
   }
 
-  /* *** Hero *** */
-  .hero {
-    grid-template-columns: 1.5fr 1fr;
-    gap: 5rem;
-    place-items: center;
-    /* 100vh minus the header height + margins (56 + 16 + 16 + 40) = 128px */
-    height: calc(100vh - 128px);
-  }
-
   /* *** Projects *** */
   .projects-wrapper article {
     display: grid;
@@ -51,6 +42,15 @@
   .header-wrapper,
   .footer-wrapper {
     margin: 1rem auto;
+  }
+
+  /* *** Hero *** */
+  .hero {
+    grid-template-columns: 1.5fr 1fr;
+    gap: 5rem;
+    place-items: center;
+    /* 100vh minus the header height + margins (56 + 16 + 16 + 40) = 128px */
+    height: calc(100vh - 128px);
   }
 
   /* *** TESTIMONIALS *** */

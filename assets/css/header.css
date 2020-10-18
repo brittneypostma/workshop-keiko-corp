@@ -1,7 +1,12 @@
 /* *** HEADER *** */
 header {
   position: sticky;
+  top: 0;
+  background: var(--lightBlue);
+  border-bottom: 1px solid var(--red);
+  box-shadow: var(--smShadow);
 }
+
 .header-wrapper {
   display: grid;
   align-items: center;

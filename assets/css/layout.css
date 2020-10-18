@@ -13,17 +13,19 @@ main {
   display: grid;
   grid-template-columns: auto var(--centerColumn) auto;
   row-gap: var(--rowGap);
+  overflow-x: hidden;
 }
 
 /* Put everything inside main in column 2 (min(80ch, 95%)) */
 main > * {
   grid-column: 2;
+  padding: 0 1rem;
 }
 
 /* Anything with this class takes up the full grid */
 .full-width {
   grid-column: 1 / -1;
-  padding: var(--rowGap) 0.5rem;
+  padding: var(--rowGap) 1rem;
 }
 
 /* Make the header and footer align with center column */

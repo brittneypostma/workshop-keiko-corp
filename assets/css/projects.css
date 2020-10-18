@@ -1,4 +1,5 @@
 /* *** PROJECTS *** */
+
 .projects-wrapper {
   display: grid;
   gap: 1rem;
@@ -17,11 +18,6 @@
 .project-one,
 .project-two {
   margin-bottom: 5rem;
-}
-
-.project-text {
-  margin: 0 auto;
-  max-width: 40ch;
 }
 
 .project-link {
