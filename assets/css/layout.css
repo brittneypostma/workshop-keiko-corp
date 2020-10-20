@@ -22,5 +22,5 @@ main > * {
 .header-wrapper,
 .footer-wrapper {
   max-width: var(--centerColumn);
-  margin: var(--gap);
+  padding: var(--gap);
 }
