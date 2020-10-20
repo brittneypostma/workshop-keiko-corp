@@ -1,5 +1,5 @@
 :root {
-  --centerColumn: min(90ch, calc(100vw - 1rem));
+  --centerColumn: min(80ch, calc(100vw - 1rem));
   --rowGap: 5rem;
 }
 

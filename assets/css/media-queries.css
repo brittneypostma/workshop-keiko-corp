@@ -24,7 +24,7 @@
   }
 
   .project-image {
-    width: 80%;
+    width: 85%;
   }
 
   .project-two > .project-text {
@@ -49,6 +49,7 @@
     grid-template-columns: 1.5fr 1fr;
     gap: 5rem;
     place-items: center;
+    grid-column: 1 / -1;
     /* 100vh minus the header height + margins (56 + 16 + 16 + 40) = 128px */
     height: calc(100vh - 128px);
   }

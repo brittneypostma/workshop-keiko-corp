@@ -3,13 +3,17 @@
   display: grid;
   gap: 1rem;
   justify-items: center;
-  max-width: 1400px;
+  max-width: var(--maxWidth);
   margin: 0 auto;
+  grid-column: 2;
 }
 
 .hero-content {
   display: grid;
   gap: 1rem;
   justify-items: start;
-  max-width: var(--ch);
+}
+
+.hero img {
+  width: 100%;
 }
