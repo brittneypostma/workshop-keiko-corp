@@ -2,7 +2,7 @@
 .footer-wrapper {
   display: grid;
   justify-items: center;
-  gap: 1rem;
+  gap: var(--gap);
   font-size: clamp(var(--lgText), 2vw, var(--xlText));
   text-align: center;
 }

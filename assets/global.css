@@ -26,6 +26,9 @@ body {
 :root {
   /* max width for site content */
   --maxWidth: 1280px;
+  --centerColumn: min(80ch, calc(100vw - 1rem));
+  --rowGap: 5rem;
+  --gap: 1rem;
 
   /* colors */
   --red: #ef5b59;
@@ -80,6 +83,8 @@ body {
 body {
   color: var(--text);
   font-size: clamp(100%, 1rem + 0.25vw, 2rem);
+  display: grid;
+  grid-template-rows: auto 1fr auto;
 }
 
 h1,

@@ -17,7 +17,7 @@ header {
   font-weight: 300;
   text-transform: uppercase;
   display: flex;
-  gap: 1rem;
+  gap: var(--gap);
 }
 
 .logo,

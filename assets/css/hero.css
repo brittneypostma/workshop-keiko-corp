@@ -1,7 +1,7 @@
 /* *** HERO *** */
 .hero {
   display: grid;
-  gap: 1rem;
+  gap: var(--gap);
   justify-items: center;
   max-width: var(--maxWidth);
   margin: 0 auto;
@@ -10,7 +10,7 @@
 
 .hero-content {
   display: grid;
-  gap: 1rem;
+  gap: var(--gap);
   justify-items: start;
 }
 

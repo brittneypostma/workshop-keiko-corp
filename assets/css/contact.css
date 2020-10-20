@@ -2,21 +2,21 @@
 #contact {
   text-align: center;
   display: grid;
-  gap: 1rem;
+  gap: var(--gap);
   justify-items: center;
 }
 
 #contact > section {
   place-items: center;
   display: grid;
-  gap: 1rem;
+  gap: var(--gap);
   max-width: 40ch;
   margin: 0 auto;
 }
 
 #contact form {
   display: flex;
-  gap: 1rem;
+  gap: var(--gap);
   font-size: clamp(var(--mdText), 2vw, var(--lgText));
 }
 
