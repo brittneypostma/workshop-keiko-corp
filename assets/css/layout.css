@@ -15,7 +15,7 @@ main > * {
 /* Anything with this class takes up the full grid */
 .full-width {
   grid-column: 1 / -1;
-  padding: var(--rowGap) var(--gap) 0;
+  padding: var(--rowGap) var(--gap);
 }
 
 /* Make the header and footer align with center column */
@@ -23,4 +23,5 @@ main > * {
 .footer-wrapper {
   max-width: var(--centerColumn);
   padding: var(--gap);
+  margin: 0 auto;
 }

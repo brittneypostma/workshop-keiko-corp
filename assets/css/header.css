@@ -22,13 +22,7 @@ header {
 
 .logo,
 .contact-btn {
-  grid-area: 1 / 2 / 2 / -1;
-  /*  ^ is short for:
-  grid-row-start: 1;
-  grid-column-start: 2;
-  grid-row-end: 2;
-  grid-column-end: -1;
-  */
+  grid-area: 1 / 1 / 2 / -1;
 }
 
 .contact-btn {
