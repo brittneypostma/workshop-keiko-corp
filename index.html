@@ -53,7 +53,7 @@
           class="logo"
           alt="Keiko Corp"
         />
-        <nav>
+        <nav role="navigation" aria-label="Menu">
           <ul class="menu">
             <li class="active">
               <a href="#"> Home </a>
@@ -77,11 +77,14 @@
     <!-- ******* MAIN ******* -->
     <main>
       <!-- ******** Hero ******** -->
-      <article class="hero full-width">
+      <section
+        class="hero full-width"
+        aria-label="intro image and short description with call to action"
+      >
         <img
           src="./assets/images/hero.svg"
-          class="hero_image"
-          alt="people using different device sizes"
+          class="hero-image"
+          alt="people using different devices"
         />
         <section class="hero-content">
           <h1>The Best Tech StartUp</h1>
@@ -93,11 +96,11 @@
           </p>
           <button class="cta">Get Started</button>
         </section>
-      </article>
+      </section>
 
       <!-- ****** CONTACT ****** -->
-      <article id="contact" class="full-width">
-        <section>
+      <section id="contact" class="full-width">
+        <div class="contact-wrapper">
           <img
             alt="image"
             height="40"
@@ -112,8 +115,8 @@
           <form>
             <input
               type="email"
-              class="email"
-              placeholder="Type your email"
+              id="email"
+              placeholder="Type your email address"
               aria-label="Email Address"
             />
             <input type="submit" id="subscribe" value="Subscribe" />
@@ -127,80 +130,81 @@
               ></strong
             >
           </p>
-        </section>
-      </article>
+        </div>
+      </section>
 
       <!-- ****** PROJECTS ****** -->
-      <article id="projects">
-        <section>
-          <h2>Why Our Clients Love Us</h2>
-          <section class="projects-wrapper">
-            <!-- project one -->
-            <article class="project-one">
-              <img
-                src="assets/images/project-one.svg"
-                alt="project one"
-                class="project-image"
-              />
-              <section class="project-text">
-                <h3>PROJECT ONE</h3>
-                <p>
-                  The best Lorem Ipsum Generator in all the sea! Heave this
-                  scurvy copyfiller fer yar next adventure and cajol yar clients
-                  into walking the plank with ev'ry layout! Configure above,
-                  then get yer pirate ipsum...own the high seas, arg!
-                </p>
-                <a href="#" class="project-link">Learn More ></a>
-              </section>
-            </article>
-            <!-- project two -->
-            <article class="project-two">
-              <img
-                src="assets/images/project-two.svg"
-                alt="project two"
-                class="project-image"
-              />
-              <section class="project-text">
-                <h3>PROJECT TWO</h3>
-                <p>
-                  The best Lorem Ipsum Generator in all the sea! Heave this
-                  scurvy copyfiller fer yar next adventure and cajol yar clients
-                  into walking the plank with ev'ry layout! Configure above,
-                  then get yer pirate ipsum...own the high seas, arg!
-                </p>
-                <a href="#" class="project-link">Learn More ></a>
-              </section>
-            </article>
-            <!-- project three -->
-            <article class="project-three">
-              <img
-                src="assets/images/project-three.svg"
-                alt="project three"
-                class="project-image"
-              />
-              <section class="project-text">
-                <h3>PROJECT THREE</h3>
-                <p>
-                  The best Lorem Ipsum Generator in all the sea! Heave this
-                  scurvy copyfiller fer yar next adventure and cajol yar clients
-                  into walking the plank with ev'ry layout! Configure above,
-                  then get yer pirate ipsum...own the high seas, arg!
-                </p>
-                <a href="#" class="project-link">Learn More ></a>
-              </section>
-            </article>
-          </section>
-        </section>
-      </article>
+      <section id="projects">
+        <h2>Why Our Clients Love Us</h2>
+        <div class="projects-wrapper">
+          <!-- project one -->
+          <article class="project-one">
+            <img
+              src="assets/images/project-one.svg"
+              alt="project one"
+              class="project-image"
+            />
+            <section class="project-text">
+              <h3>PROJECT ONE</h3>
+              <p>
+                The best Lorem Ipsum Generator in all the sea! Heave this scurvy
+                copyfiller fer yar next adventure and cajol yar clients into
+                walking the plank with ev'ry layout! Configure above, then get
+                yer pirate ipsum...own the high seas, arg!
+              </p>
+              <a href="#" class="project-link">Learn More ></a>
+            </section>
+          </article>
+          <!-- project two -->
+          <article class="project-two">
+            <img
+              src="assets/images/project-two.svg"
+              alt="project two"
+              class="project-image"
+            />
+            <section class="project-text">
+              <h3>PROJECT TWO</h3>
+              <p>
+                The best Lorem Ipsum Generator in all the sea! Heave this scurvy
+                copyfiller fer yar next adventure and cajol yar clients into
+                walking the plank with ev'ry layout! Configure above, then get
+                yer pirate ipsum...own the high seas, arg!
+              </p>
+              <a href="#" class="project-link">Learn More ></a>
+            </section>
+          </article>
+          <!-- project three -->
+          <article class="project-three">
+            <img
+              src="assets/images/project-three.svg"
+              alt="project three"
+              class="project-image"
+            />
+            <section class="project-text">
+              <h3>PROJECT THREE</h3>
+              <p>
+                The best Lorem Ipsum Generator in all the sea! Heave this scurvy
+                copyfiller fer yar next adventure and cajol yar clients into
+                walking the plank with ev'ry layout! Configure above, then get
+                yer pirate ipsum...own the high seas, arg!
+              </p>
+              <a href="#" class="project-link">Learn More ></a>
+            </section>
+          </article>
+        </div>
+      </section>
 
       <!-- ******** COMPANIES ******** -->
-      <article id="companies" class="full-width">
+      <section id="companies" class="full-width">
         <div class="companies-wrapper">
-          <section class="companies-title">
+          <section
+            class="companies-title"
+            aria-label="partner companies title section"
+          >
             <h2>You are in Good Company</h2>
             <p>We are funded with the world's trusted brands</p>
           </section>
-          <section class="company-logos">
+          <section class="company-logos" aria-label="company logos">
             <img
               class="company-logo"
               src="assets/images/logos/adobe.svg"
@@ -233,15 +237,18 @@
             />
           </section>
         </div>
-      </article>
+      </section>
 
       <!-- ******** TESTIMONIALS ******** -->
-      <article id="testimonials">
-        <section class="testimonials-title">
+      <section id="testimonials">
+        <section
+          class="testimonials-title"
+          aria-label="testimonial title section"
+        >
           <h2>What Our Customers are Saying</h2>
           <p>Don't take our word for it, see what our customers said.</p>
         </section>
-        <section class="testimonials-cards">
+        <article class="testimonials-cards">
           <section class="testimonial">
             <p>
               "Lorem ipsum dolor, sit amet consectetur adipisicing elit.
@@ -287,17 +294,17 @@
               </div>
             </div>
           </section>
-        </section>
-      </article>
+        </article>
+      </section>
 
       <!-- ******** PRICING SECTION ******** -->
-      <article id="pricing" class="full-width">
-        <section class="price-heading">
+      <section id="pricing" class="full-width">
+        <section class="price-heading" aria-label="pricing title section">
           <h2>How Much Does it Cost</h2>
           <p>Honest pricing, no surprises</p>
         </section>
-        <section class="price-cards">
-          <div class="price-card personal">
+        <article class="price-cards">
+          <section class="price-card personal">
             <h3>Personal</h3>
             <div class="price">
               <span>$</span><span>10</span><span> /MO</span>
@@ -306,8 +313,8 @@
             <p>2 perks per month</p>
             <p>20GB Data</p>
             <button class="red-btn" type="button">Sign Up</button>
-          </div>
-          <div class="price-card agency">
+          </section>
+          <section class="price-card agency">
             <h3>Agency</h3>
             <div class="price">
               <span>$</span><span>20</span><span> /MO</span>
@@ -316,8 +323,8 @@
             <p>5 perks per month</p>
             <p>Unlimited data</p>
             <button class="red-btn" type="button">Sign Up</button>
-          </div>
-          <div class="price-card enterprise">
+          </section>
+          <section class="price-card enterprise">
             <h3>Enterprise</h3>
             <div class="price">
               <span>$</span><span>49</span><span> /MO</span>
@@ -326,22 +333,22 @@
             <p>Unlimited recommendations</p>
             <p>Unlimited perks</p>
             <button class="red-btn" type="button">Sign Up</button>
-          </div>
-        </section>
-      </article>
+          </section>
+        </article>
+      </section>
     </main>
     <!-- ******* END MAIN ******* -->
 
     <!-- ******* Footer ******* -->
     <footer>
-      <section class="footer-wrapper">
-        <div class="socials">
+      <div class="footer-wrapper">
+        <section class="socials">
           <a href="/"><i class="fab fa-twitter"></i></a>
           <a href="/"><i class="fab fa-facebook-f"></i></a>
           <a href="/"><i class="fab fa-instagram"></i></a>
           <a href="/"><i class="fab fa-youtube"></i></a>
           <a href="/"><i class="fab fa-google"></i></a>
-        </div>
+        </section>
         <p>
           &copy;
           <script>
@@ -349,7 +356,7 @@
           </script>
           Keiko Corp . All Rights Reserved
         </p>
-      </section>
+      </div>
     </footer>
     <!-- ******* END FOOTER ******* -->
   </body>
