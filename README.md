@@ -34,6 +34,8 @@ Incredibly, Bruno the CEO of Keiko Corp has built the fastest growing tech start
 - [One Line Layouts - Una Kravets](https://web.dev/one-line-layouts/)
 - [Free CSS Grid Course - Wes Bos](https://cssgrid.io/)
 - [Learn CSS Grid](https://learncssgrid.com/)
+- [Article vs Section](https://www.smashingmagazine.com/2020/01/html5-article-section/)
+- [MDN Section Elements](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Using_HTML_sections_and_outlines#Section_Elements_in_HTML5)
 
 ## Disclaimer
 
