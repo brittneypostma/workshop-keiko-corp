@@ -51,7 +51,11 @@
 
   /* *** TESTIMONIALS *** */
   .testimonials-cards {
-    grid-template-columns: 40ch 40ch 40ch;
+    grid-template-columns: 40ch 40ch;
+  }
+
+  .testimonial:nth-child(3) {
+    grid-column: 1/-1;
   }
 
   /* *** PRICING *** */
