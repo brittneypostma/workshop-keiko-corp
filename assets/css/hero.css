@@ -12,6 +12,7 @@
   display: grid;
   gap: var(--gap);
   justify-items: start;
+  max-width: 65ch;
 }
 
 .hero img {
